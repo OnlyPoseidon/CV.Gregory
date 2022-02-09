@@ -91,3 +91,26 @@ header .lumineux {
     border-color: white;
     border-radius: 15px;
 }
+
+.sous-div-projet img{
+    height: 40rem;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
+
+.div1-projet button {
+    background-color: var(--primary);
+    border-color: white;
+    border-radius: 15px;
+}
+
+.projet-button {
+    position: absolute;
+    content: "";
+    object-fit: contain;
+    left: 28%;
+    bottom: 10%;
+    width: 210px;
+    z-index: 2;
+}
