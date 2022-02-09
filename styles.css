@@ -8,8 +8,54 @@
     font-family: "Outfit";
 }
 
-header {
+header{
+    height: 100vh;
+    z-index: 1;
 }
 
-body {
+header .lumineux {
+    position: absolute;
+    content: "";
+    object-fit: contain;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    height: 80%;
+}
+
+.navbar *{
+    z-index: 3;
+}
+
+.navbar-brand{
+    width: 10%;
+}
+
+.nav-div1 h1{
+    color: var(--primary);
+}
+
+.div-header a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white
+}
+
+.header-div-main {
+    z-index: 4;
+}
+
+.logo-main-div.col-2 {
+    object-fit: contain;
+    height: 150px;
+}
+
+.header-div-main .div2 h1 {
+    color: var(--primary);
+}
+
+.header-div-main .div2 p {
+    color: white;
 }
