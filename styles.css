@@ -2,6 +2,8 @@
     --primary: #11c9d7;
     --secondary: #cb930a;
     --tertiary: #e9e9e9;
+    --origin: #000;
+    --nuance: #727272;
 }
 
 .html {
@@ -13,6 +15,11 @@ header{
     z-index: 1;
 }
 
+.btn:hover {
+    background-color: var(--secondary) !important;
+    color: #000000 !important; 
+}
+
 header .lumineux {
     position: absolute;
     content: "";
@@ -21,6 +28,14 @@ header .lumineux {
     top: 0;
     z-index: 2;
     height: 80%;
+}
+
+.btn {
+    background-color: var(--primary);
+    border-color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
 }
 
 .navbar *{
@@ -82,14 +97,8 @@ header .lumineux {
 }
 
 .section1-presentation p {
-    color: #727272;
+    color: var(--nuance);
     font-size: 18px;
-}
-
-.section1-presentation .btn {
-    background-color: var(--primary);
-    border-color: white;
-    border-radius: 15px;
 }
 
 .sous-div-projet img{
@@ -97,12 +106,6 @@ header .lumineux {
     object-fit: cover;
     object-position: top;
     width: 100%;
-}
-
-.div1-projet button {
-    background-color: var(--primary);
-    border-color: white;
-    border-radius: 15px;
 }
 
 .projet-button {
@@ -123,13 +126,6 @@ header .lumineux {
     color: #727272;
 }
 
-.section3-services .btn {
-    background-color: var(--primary);
-    border-color: white;
-    border-radius: 15px;
-    width: auto;
-}
-
 .section3-services .nav-item {
     width: 49.5%;
 }
@@ -143,9 +139,30 @@ header .lumineux {
 }
 
 .section3-services .item1 {
-    color: #727272;
+    color: var(--nuance);
 }
 
 .section3-services .item2 {
-    color: #727272;
+    color: var(--nuance);
+}
+
+.section3-services p {
+    color: var(--nuance);
+    font-size: 18px;
+}
+
+.section4-contact h2{
+    font-size: 50px;
+    color: var(--tertiary);
+}
+
+.section4-contact form {
+    background-color: var(--origin);
+    border-radius: 0 0 15px 15px ;
+}
+
+.section4-contact .form-label {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
