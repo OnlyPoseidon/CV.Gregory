@@ -166,3 +166,22 @@ header .lumineux {
     font-weight: bold;
     font-size: 18px;
 }
+
+.footer-title {
+    color: var(--primary);
+}
+
+.footer-mentions {
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-social i {
+    color: white;
+    font-size: 2rem;
+}
