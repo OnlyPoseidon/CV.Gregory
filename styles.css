@@ -114,3 +114,38 @@ header .lumineux {
     width: 210px;
     z-index: 2;
 }
+
+.section3-services .item1 .nav-link,.section3-services .particuliers {
+    background-color: var(--tertiary);
+}
+
+.section3-services .item2 .nav-link{
+    color: #727272;
+}
+
+.section3-services .btn {
+    background-color: var(--primary);
+    border-color: white;
+    border-radius: 15px;
+    width: auto;
+}
+
+.section3-services .nav-item {
+    width: 49.5%;
+}
+
+.section3-services .nav-tabs {
+    border-bottom: none;
+}
+
+.section3-services .nav-link , .section3-services .services {
+    border: var(--tertiary) 1px solid;
+}
+
+.section3-services .item1 {
+    color: #727272;
+}
+
+.section3-services .item2 {
+    color: #727272;
+}
