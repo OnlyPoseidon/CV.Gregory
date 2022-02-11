@@ -24,3 +24,8 @@ document.addEventListener("mousemove", function (e) {
   document.getElementById('popup').style.top = moveY + 'px';
   document.getElementById('popup').style.transform = 'rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg)';
 });
+
+setTimeout(() => {
+  const box = document.getElementById('alert');
+  box.style.display =  'none';
+  }, 1000);
