@@ -82,24 +82,19 @@ header .lumineux {
 
 .moving-zone {
     position: absolute;
-    top:0; left:0;
-    width:300px; height:120px;
+    top:0; left: 15px;;
     perspective: 800px;
 }
+
 .popup {
     position: absolute;
     width:300px;
-    padding: 10px;
     box-sizing: border-box;
     border-radius: 20px 0 20px 0;
     cursor: pointer;
     transform-style: preserve-3d;
-    background: -webkit-linear-gradient(top left, white 50%, coral 50%);
-    background:    -moz-linear-gradient(top left, white 50%, coral 50%);
-    background:     -ms-linear-gradient(top left, white 50%, coral 50%);
-    background:      -o-linear-gradient(top left, white 50%, coral 50%);
-    background:         linear-gradient(top left, white 50%, coral 50%);
 }
+
 .popup:before {
     content: '';
     position: absolute;
@@ -116,8 +111,7 @@ header .lumineux {
 }
 
 .popup-content {
-    background: #444;
-    padding: 20px;
+    /*background: #444;*/
     box-sizing: border-box;
     border-radius: 10px 0 10px 0;
 }
