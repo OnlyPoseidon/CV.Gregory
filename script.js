@@ -24,16 +24,3 @@ document.addEventListener("mousemove", function (e) {
   document.getElementById('popup').style.top = moveY + 'px';
   document.getElementById('popup').style.transform = 'rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg)';
 });
-
-/*setTimeout(() => {
-  const box = document.getElementById('alert');
-  box.style.display =  'none';
-  }, 1000);
-
-  const cursor = document.querySelector('.cursor');
-const cursorOuter = document.querySelector('.innerCursor');
-
-document.addEventListener('mousemove', (e)=> {
-  cursor.setAttribute('style', "top: " + (e.pageY - 12) + "px;" + "left: " + (e.pageX - 10) + "px;");
-  // cursorOuter.setAttribute('style', "top: " + (e.pageY - 5) + "px;" + "left: " + (e.pageX - 5) + "px;");
-});*/

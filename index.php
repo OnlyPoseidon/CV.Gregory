@@ -216,7 +216,7 @@
     <footer class="bg-black d-flex flex-column py-2">
         <div class="container col-12 d-flex align-items-center">
             <h1 class="footer-title col-4 fs-3 fw-bold">PoS'</h1>
-            <a class="px-1 footer-mentions col-4 d-flex align-items-center text-white text-uppercase fs-6"
+            <a class="px-1 footer-mentions col-4 d-flex align-items-center text-uppercase fs-6"
                 href="#">Mentions Légales</a>
             <div class="footer-social col-4">
                 <a class="px-2"
