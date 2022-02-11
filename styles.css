@@ -6,8 +6,12 @@
     --nuance: #727272;
 }
 
-.html {
+html {
     font-family: "Outfit";
+}
+
+body, .btn, a, label .nav-link {
+    cursor: url(./Images/Trident.svg), pointer !important;
 }
 
 header{
@@ -91,7 +95,7 @@ header .lumineux {
     width:300px;
     box-sizing: border-box;
     border-radius: 20px 0 20px 0;
-    cursor: pointer;
+    cursor: url("./Images/Trident.svg"), auto;
     transform-style: preserve-3d;
 }
 
@@ -111,7 +115,6 @@ header .lumineux {
 }
 
 .popup-content {
-    /*background: #444;*/
     box-sizing: border-box;
     border-radius: 10px 0 10px 0;
 }
